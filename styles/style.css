@@ -1,5 +1,8 @@
+html{
+    height: 100%;
+}
+
 body{
-    /* margin: 0; */
     font-family:Arial, Helvetica, sans-serif
 }
 
@@ -9,11 +12,15 @@ body{
     width: 1024px;
 }
 
-header{
+header .navbar{
     background: rgba(240, 255, 240, 1);
-
     height: 500px;
 }
+
+
+/* .course-nav{
+    height: auto;
+} */
 
 nav{
     display: flex;
@@ -30,7 +37,6 @@ nav{
 }
 
 main{
-    /* height: 800px; */
     margin: 50px 0;
 }
 .categories-cards{
@@ -53,7 +59,15 @@ main{
 
 footer{
     background-color: rgba(40, 37, 49, 1);
-    height: 118px;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 12px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 button{
@@ -211,4 +225,86 @@ h2{
 
 .footer-logo img{
     width: 100%;
+}
+
+.school-info p{
+
+    width: 350px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+address{
+    display: flex;
+    
+}
+
+address ul{
+    list-style: none;
+}
+
+address ul .highlight{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-logo{
+    width: 150px;
+}
+
+/* -------------------- */
+.course-title{
+    text-align: left;
+}
+
+.check{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.course-container{
+    display: flex;
+    
+}
+
+.courses{
+    width: 700px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.card-cart{
+    width: 300px;
+    height:400px;
+
+    /* border: none; */
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+    padding: 10px;
+}
+
+.card-cart h3{
+    text-decoration: underline;
+}
+
+#add-cart{
+    height: auto;
+}
+
+#add-cart li{
+    list-style: none;
+    text-align: left;
 }
